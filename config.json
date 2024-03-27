@@ -93,7 +93,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip-only-cn-private-v4.dat",
-        "wantedList": ["cn", "private"]，
+        "wantedList": ["cn", "private"],
         "onlyIPType": "ipv4"
       }
     },
