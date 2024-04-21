@@ -98,6 +98,16 @@
       }
     },
     {
+      "type": "text",
+      "action": "output",
+      "args": {
+        "outputName": "cn-cidr.txt",
+        "outputDir": "./publish",
+        "wantedList": ["cn"],
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
